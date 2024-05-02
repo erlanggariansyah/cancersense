@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.WelcomeScreenActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/welcome_vector"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/full_logo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi, how are you?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/helvetica"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use the CancerSense by Asclepius App to book GP appointments, order repeat prescriptions and access a range of other healthcare services"
+            android:textColor="@color/black"
+            android:fontFamily="@font/helvetica"
+            android:textSize="12sp"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/buttonMainLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/buttonMainRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/bluePrimary"
+            android:backgroundTint="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By logging in or registering, you agree to our Terms of Service and Privacy Policy"
+            android:textColor="@color/black"
+            android:fontFamily="@font/helvetica_oblique"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

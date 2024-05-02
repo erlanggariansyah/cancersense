@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/gallery"
+        android:title="Picture"
+        android:icon="@drawable/baseline_image_search_24"/>
+    <item
+        android:id="@+id/cancersense"
+        android:title="LIVE"
+        android:icon="@drawable/logo_fav"/>
+    <item
+        android:id="@+id/analyze"
+        android:title="Analyze"
+        android:icon="@drawable/baseline_find_replace_24"/>
+    <item
+        android:id="@+id/GP"
+        android:title="GP"
+        android:icon="@drawable/baseline_group_24"/>
+</menu>
