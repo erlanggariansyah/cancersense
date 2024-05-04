@@ -23,7 +23,7 @@ android {
         debug {
             buildConfigField("String", "API_NEWS_URL", "\"https://newsapi.org/v2/\"")
             buildConfigField("String", "API_NEWS_ENDPOINT_TOP_HEADLINES", "\"top-headlines\"")
-            buildConfigField("String", "API_NEWS_KEY", "\"YOUR_KEY\"")
+            buildConfigField("String", "API_NEWS_KEY", "\"XXX\"")
         }
         release {
             isMinifyEnabled = false
@@ -34,7 +34,7 @@ android {
 
             buildConfigField("String", "API_NEWS_URL", "\"https://newsapi.org/v2/\"")
             buildConfigField("String", "API_NEWS_ENDPOINT_TOP_HEADLINES", "\"top-headlines\"")
-            buildConfigField("String", "API_NEWS_KEY", "\"YOUR_KEY\"")
+            buildConfigField("String", "API_NEWS_KEY", "\"XXX\"")
         }
     }
     compileOptions {
